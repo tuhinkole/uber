@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bottomText">#6b6b76</color>
+    <color name="ripple_effect_color">#f816a463</color>
+    <color name="btn_signIn">#1fbad6</color>
+    <color name="btn_register">#83838c</color>
+</resources>
