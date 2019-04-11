@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:background="@drawable/backgroung"
     android:layout_height="match_parent"
-    tools:context="testing.uber.tuhinkole.uber.MainActivity">
+    android:id="@+id/rootLayout"
+    tools:context=".MainActivity">
 
 
     <LinearLayout
@@ -19,7 +20,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="U B E R"
+            android:text="B I K E"
             android:textSize="36sp"
             android:textColor="@android:color/white"
             android:textAlignment="center"/>
@@ -32,9 +33,6 @@
             android:textSize="16sp"
             android:textColor="@android:color/white"
             android:textAlignment="center"/>
-
-
-
 
     </LinearLayout>
 
@@ -65,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="6dp"
             android:layout_weight="1"
-            android:background="@drawable/btn_signin_backgroung"
+            android:background="@color/btn_signIn"
             android:text="SIGN IN"
             android:textColor="@android:color/white" />
 
@@ -73,9 +71,9 @@
             android:id="@+id/btnRegister"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:background="@drawable/btn_register_backgroung"
             android:layout_height="wrap_content"
             android:text="REGISTER"
+            android:background="@android:color/white"
             android:layout_marginLeft="6dp"
             android:textColor="@color/btn_register"/>
 
